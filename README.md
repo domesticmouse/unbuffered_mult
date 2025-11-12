@@ -6,6 +6,46 @@ However, it is not recommended for voltage precise signals (CV), which require a
 
 **Note:** This is a learning exercise.
 
+## Design intent
+
+The intent of this design is to implement a 2hp wide EuroRack module.
+The module will consist of two groups of four 3.5mm mono jacks.
+There will be a common ground for the whole board. The first group of
+four jacks will have their signal leads wired together, with their
+switched terminal left floating.
+
+The second group of four jacks will have their signal terminals wired together.
+The first jack of the second group will have it's switched terminal connected
+to the first group's signal wire.
+This will normally connect the three output jacks into the first group if the
+first socket of the second group is left unconnected.
+
+If a cable is connected into the first socket of the second group, this will
+disconnect the second group of sockets from the first group.
+
+## Important dimensions
+
+The width of the board will be 9mm. The height of the board will be 110mm. The
+thickness of the board will 1.6mm, the default thickness of a 2 layer PCB.
+
+Taking the center of the socket as a point to measure from, the body of the
+socket extends 6mm above the center of the socket and 4.5mm below it. The body
+is 9mm wide, and is center aligned with the socket.
+
+The connections with the board are as follows:
+
+- Pin 1 is 6.48mm below the center of the socket, and should have a 0.6mm by 1.3mm plated through hole.
+- Pin 2 should be 3.38mm below the center of the socket, and be a 0.6mm by 1.5mm plated through hole.
+- Pin 3 should be 4.92mm above the center of the socket, and have a 0.5mm by 1.5mm plated through hole.
+
+All pin holes are vertically aligned with the center of the socket.
+
+Underneath the center of the socket there should be a 3mm x 3mm exlusion zone
+for ground and trace wires to prevent bleed through with the jack plug.
+
+Given the board length of 110mm, and the 8 sockets, the socket cadence should
+be 13.75 mm. The sockets are 12mm in this direction.
+
 ## Sources
 
 - [fuzzySi](https://github.com/fuzzySi)'s [KiCad parts](https://github.com/fuzzySi/kicad)
@@ -17,3 +57,4 @@ However, it is not recommended for voltage precise signals (CV), which require a
 - [clacktronics](https://github.com/clacktronics) [AudioJacks](https://github.com/clacktronics/AudioJacks)
 - [AI Synthesis](https://aisynthesis.com/)'s [AI001 Multiple](https://aisynthesis.com/product/multiple-eurorack-synthesizer-module/)
 - [AI Synthesis](https://aisynthesis.com/)'s [AI001 Multiple Build Guide](https://aisynthesis.com/ai001-multiple-build-guide/)
+- [EuroRack dimensions](https://midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html)
