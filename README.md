@@ -15,3 +15,5 @@ However, it is not recommended for voltage precise signals (CV), which require a
 - [thonk.co.uk](https://www.thonk.co.uk/)'s [Thonkiconn – 3.5mm Jack Sockets](https://www.thonk.co.uk/shop/thonkiconn/)
 - [thonk.co.uk](https://www.thonk.co.uk/)'s [PJ398SM Datasheet](https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg)
 - [clacktronics](https://github.com/clacktronics) [AudioJacks](https://github.com/clacktronics/AudioJacks)
+- [AI Synthesis](https://aisynthesis.com/)'s [AI001 Multiple](https://aisynthesis.com/product/multiple-eurorack-synthesizer-module/)
+- [AI Synthesis](https://aisynthesis.com/)'s [AI001 Multiple Build Guide](https://aisynthesis.com/ai001-multiple-build-guide/)
