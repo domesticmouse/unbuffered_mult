@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EurorackSymbols")(type "KiCad")(uri "${KIPRJMOD}/EurorackSymbols.kicad_sym")(options "")(descr ""))
+)
