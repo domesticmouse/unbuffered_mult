@@ -43,4 +43,5 @@ The faceplate dimensions are 2hp (9.8mm) wide, and 128.5 mm tall.
 - [clacktronics](https://github.com/clacktronics) [AudioJacks](https://github.com/clacktronics/AudioJacks)
 - [AI Synthesis](https://aisynthesis.com/)'s [AI001 Multiple](https://aisynthesis.com/product/multiple-eurorack-synthesizer-module/)
 - [AI Synthesis](https://aisynthesis.com/)'s [AI001 Multiple Build Guide](https://aisynthesis.com/ai001-multiple-build-guide/)
+- [Eurorack Panel Dimensions](https://www.exploding-shed.com/manuals-tutorials/manuals/standards-of-eurorack/eurorack-dimensions/) by [Exploding Shed](https://www.exploding-shed.com/)
 - [EuroRack dimensions](https://midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html)
