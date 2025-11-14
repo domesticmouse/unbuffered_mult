@@ -23,6 +23,8 @@ first socket of the second group is left unconnected.
 If a cable is connected into the first socket of the second group, this will
 disconnect the second group of sockets from the first group.
 
+![Main Circuit](mainboard.png)
+
 ## Important dimensions
 
 The width of the board will be 9mm. The height of the board will be 110mm. The
