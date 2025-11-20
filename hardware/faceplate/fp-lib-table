@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "ModularMountingKit")(type "KiCad")(uri "${KIPRJMOD}/ModularMountingKit.pretty")(options "")(descr ""))
+  (lib (name "ModularMountingHoles")(type "KiCad")(uri "${KIPRJMOD}/ModularMountingHoles.pretty")(options "")(descr ""))
 )
